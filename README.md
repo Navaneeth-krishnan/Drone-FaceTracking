@@ -1,7 +1,7 @@
 # Drone-FaceTracking
 https://youtu.be/kwGHcA9aoC8
 
-##Details
+## Details
 
 In order to track a person indoors using a drone, a face recognition algorithm together with a controller is used. A face detector was chosen over a pedestrian detector as it is more reliable in tight spaces. This is because a human face is easier visible by a drone than a full human body, where the drone has to be further away from its target to detect it.
 As a base to control the DJI Tello, the example script in the Python Tello Library named DJITelloPy is used. The script is used to set up the connection between the Tello and a PC, get the video feed of the drone and control the Tello using the keyboard of a PC.
